@@ -874,6 +874,7 @@ func Provider() *schema.Provider {
 			"aws_service_discovery_service":                           resourceAwsServiceDiscoveryService(),
 			"aws_servicequotas_service_quota":                         resourceAwsServiceQuotasServiceQuota(),
 			"aws_shield_protection":                                   resourceAwsShieldProtection(),
+                        "aws_shield_health_check":                                 resourceAwsShieldHealthCheck(),
 			"aws_simpledb_domain":                                     resourceAwsSimpleDBDomain(),
 			"aws_ssm_activation":                                      resourceAwsSsmActivation(),
 			"aws_ssm_association":                                     resourceAwsSsmAssociation(),
